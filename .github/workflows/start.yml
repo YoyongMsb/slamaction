@@ -18,5 +18,5 @@ jobs:
         run: echo GDRIVE_FOLDER_ID = ${{ github.event.inputs.gdriveid }} >> config.env
       - name: Building Bot
         run: docker build . -t m
-      - name: Bot will be running for 6 hours. Join t.me/drivetalk for any question
+      - name: Bot will be running for 12 hours. Join t.me/drivetalk for any question
         run: docker run m
